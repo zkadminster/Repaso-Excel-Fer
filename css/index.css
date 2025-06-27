@@ -1,0 +1,78 @@
+*{
+    font-family: century gothic;
+    margin: 0px;
+    background-color: rgb(0, 0, 95);
+    color: white;
+}
+
+.presentación{
+    display: block;
+    width: 100%;
+    margin-left: 18%;
+    vertical-align: middle;
+    margin-top: 8%;
+}
+.texto{
+    display: inline-block;
+    width: 40%;
+      vertical-align: middle;
+      
+.contenido{
+    button{
+        padding: 3%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 5%;
+        border-style:none;
+        font-size: 15px;
+        border-width: 1px;
+        background-color: blue;
+        font-weight: bold;
+        border-radius: 5px;    
+    }
+
+        .ab{
+       color: aqua;
+       margin-top: 2%; 
+    }
+
+    button:hover{
+        background-color: orange;
+    }    
+}
+}
+.ima{
+      vertical-align: middle;
+    display: inline-block;
+    width: 30%;
+   
+    img{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 600px){
+    
+    .presentación{
+        margin-left: 4%;
+        margin-top: 50%;
+        display: inline-block;
+        .texto{
+            display: inline-block;
+            width: 50%;
+            h1{
+                margin-top: 10%;
+                font-size: 25px;
+            }
+            p{
+                margin-top: 5%;
+                font-size: 10px;
+            }
+        }
+        .ima{
+            display: inline-block;
+            width: 40%;
+        }
+    }
+}
