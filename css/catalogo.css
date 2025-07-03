@@ -3,7 +3,6 @@
     font-family: century gothic;
     overflow-x: hidden;
 }
-
 nav{
     background-color: rgb(0, 0, 90);
     color: white;
@@ -70,8 +69,6 @@ nav{
         border-radius: 5px;
     }
 }  
-
-
 .tarjetas:hover{
     color: white;
     background-color: rgb(0, 0, 90);
@@ -81,4 +78,32 @@ nav{
  button:hover{
     background-color: orange;
  }   
+}
+@media(max-width: 600px){
+
+    .presentacion{
+        display: block;
+        width: 100%;
+        .texto{
+            display: inline-block;
+            width: 70%;
+            margin: 0px;
+            text-align: justify;
+            left: -1000px;
+            h1{
+                font-size: 30px;
+            }
+        }
+        .ima{
+            display: none;
+            width: 30%;
+        }
+    }
+    .tarjetas{
+        
+        display: inline-block;
+        width: 90%;
+        margin-left: 4%;
+    }
+
 }
